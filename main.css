@@ -1,16 +1,38 @@
-body{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    background: linear-gradient(to right,rgb(216, 89, 89), rgb(88, 218, 88));
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  background: linear-gradient(to right, rgb(216, 89, 89), rgb(88, 218, 88));
 }
 
-
-.header{
-    text-transform: uppercase;
-    text-align: center;
+.header {
+  text-transform: uppercase;
+  text-align: center;
 }
 
-.content{
-    text-align: center;
+.content {
+  text-align: center;
+}
+
+.btn-random {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #313133;
+  background: #4fd1c5;
+  background: linear-gradient(
+    90deg,
+    rgba(129, 230, 217, 1) 0%,
+    rgba(79, 209, 197, 1) 100%
+  );
+  border: none;
+  border-radius: 1000px;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  padding: 10px;
+}
+
+.btn-random:hover{
+    transform: scale(1.2);
 }
