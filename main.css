@@ -1,0 +1,16 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background: linear-gradient(to right,rgb(216, 89, 89), rgb(88, 218, 88));
+}
+
+
+.header{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.content{
+    text-align: center;
+}
